@@ -40,7 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ProductID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Seller = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ProductName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SellAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.OfferView = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -146,7 +146,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ProductID,
+            this.Seller,
             this.ProductName,
             this.SellAmount,
             this.OfferView});
@@ -156,10 +156,10 @@
             this.dataGridView1.Size = new System.Drawing.Size(1675, 467);
             this.dataGridView1.TabIndex = 9;
             // 
-            // ProductID
+            // Seller
             // 
-            this.ProductID.HeaderText = "Product ID";
-            this.ProductID.Name = "ProductID";
+            this.Seller.HeaderText = "Seller";
+            this.Seller.Name = "Seller";
             // 
             // ProductName
             // 
@@ -217,7 +217,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ProductID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Seller;
         private System.Windows.Forms.DataGridViewTextBoxColumn ProductName;
         private System.Windows.Forms.DataGridViewTextBoxColumn SellAmount;
         private System.Windows.Forms.DataGridViewTextBoxColumn OfferView;
