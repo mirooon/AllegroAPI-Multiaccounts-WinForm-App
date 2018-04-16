@@ -11,6 +11,6 @@ Small Windows Forms Application works with Allegro API
 
 ## Allegro Sandbox
 
-Application has been tested using Allegro Sandbox API so don't forget change web reference
+Application has been tested using Allegro Sandbox API so don't forget to change web reference
 
 ![Design](http://i63.tinypic.com/2yl4fhj.jpg)
